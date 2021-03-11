@@ -35,7 +35,7 @@ h3 {
 /* Title Image */
 
 .title-image {  
-  width: 15%; 
+  width:15%; 
   position: absolute;
   right:25%;
   top: 12.5rem;
@@ -182,6 +182,7 @@ a {
   text-decoration: none;
 }
 
+
 @media (max-width:1028px) {
   #title {
     text-align: center;
@@ -189,6 +190,7 @@ a {
   .title-image {
     position: static;
     transform: rotate(0);
+    display: none;
     
   }
 }
